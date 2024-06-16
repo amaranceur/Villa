@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+header{
+    flex-direction: column;
+width: 100%;
+background-color: white;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding:  20px;
+}
+.social ul{
+    display: flex;
+    list-style: none;
+}
+.social ul li{
+    margin-left: 10px;
+    color: rgb(82, 82, 82);
+
+}
+.social .info li i {
+    color: orangered;
+    margin-right: 10px;
+}
+.social-links {
+    margin-right: 100px;
+}
+.social-links li a {
+    border-radius: 50%;  /* Makes the elements circular */
+    display: inline-block;  /* Ensures circular shape */
+    padding: 2px 5px;  /* Adjust spacing as needed */
+    background-color: rgb(158, 158, 158);
+    transition: .6s ease;
+}
+.social-links li a i {
+    color: white;
+}
+.social-links li a:hover{
+    background-color: orangered;
+}
+header .header{
+
+display: flex;
+padding: 0 100px;
+justify-content: space-between;
+
+}
+.header h1{
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+     padding-top: 20px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    transition: .6s ease ;
+
+}
+
+#one{
+    color:orangered;
+}
+.header ul li {
+    margin-left: 50px;
+}
+.header ul li a:hover{
+    color: orangered;
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    
+
+}
+.carousel-caption h1{
+    font-size: 2em;
+    color: orangered;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    padding: 10px;
+    cursor: grab;
+    
+}
+.carousel-caption p {
+    font-size: 4.4em;
+    text-transform: uppercase;
+    width: 45%;
+    cursor: grab;
+}
+.Featured{
+ display: flex;
+ flex-direction: row;
+ margin-top: 70px;
+}
+.Featured .info{
+    width: 33%;
+    padding: 60px;
+}
+.pic-info{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+} 
+.pic-info a{
+    font-size: 2.7em;
+}
+
+.pic-info  i {
+    color: white;
+    border-radius: 50%;  /* Makes the elements circular */
+    position: relative;
+    display: inline-block;  /* Ensures circular shape */
+    background-color: orangered;
+    transition: .6s ease;
+    padding: 0px 10px;
+    bottom: 60%;
+}
+.info h4{
+ color: rgb(252, 162, 225);
+ font-weight: 700;
+}
+.info p{
+    font-size: 4em;
+    font-weight: 700;
+}
+/* Overall accordion background */
+/* Custom styles for accordion */
+
+  
+  .accordion-button:hover {
+    background-color: orangered; /* Change the background color on hover */
+  }
+  .details{
+    list-style: none;
+    border: 1px solid #999999;
+    box-shadow:   10px 10px 10px 10px #888888 ;
+  }
+  .details li {
+    display: flex;
+  }
+  .details .img {
+    margin-top: 60px;
+  }
+  .details .img h5{
+    margin-top: 10px;
+    font-weight: 200;
+    color: #999999;
+  }
+  .details .info{
+    width: 80%;
+  }
+  .details .info h3{
+    font-weight: 300;
+    color: #888888;
+  }
+  
+ 
+  
